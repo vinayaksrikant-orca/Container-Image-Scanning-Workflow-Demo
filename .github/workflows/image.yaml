@@ -12,7 +12,7 @@ env:
   IMAGE_TAG: ${{ github.sha }}
   PROJECT_KEY: srikantvinayak-Orca-Testing  # ✅ Updated project key
 
-jobs:
+jobs: 
   build-and-scan:
     name: Build Image & Orca Scan
     runs-on: ubuntu-latest
